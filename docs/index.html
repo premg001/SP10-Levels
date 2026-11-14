@@ -48,9 +48,48 @@
       .muted {
         color: #94a3b8;
       }
+      .refresh-widget {
+        position: fixed;
+        top: 16px;
+        right: 16px;
+        z-index: 10;
+        display: grid;
+        gap: 4px;
+        min-width: 190px;
+        padding: 12px 14px;
+        border: 1px solid #334155;
+        border-radius: 10px;
+        background: #1e293b;
+        box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+      }
+      .refresh-title,
+      .refresh-note {
+        color: #94a3b8;
+        font-size: 12px;
+      }
+      .refresh-time {
+        font-size: 16px;
+      }
+      .refresh-countdown {
+        color: #86efac;
+        font-variant-numeric: tabular-nums;
+      }
+      @media (max-width: 520px) {
+        .refresh-widget {
+          position: static;
+          margin: 0 0 20px auto;
+          width: fit-content;
+        }
+      }
     </style>
   </head>
   <body>
+    <aside class="refresh-widget" aria-label="Next scheduled data refresh">
+      <span class="refresh-title">Next scheduled refresh</span>
+      <strong id="next-refresh-time" class="refresh-time">Calculating…</strong>
+      <span id="refresh-countdown" class="refresh-countdown"></span>
+      <span class="refresh-note">Every 15 min · GitHub may delay runs</span>
+    </aside>
     <div class="container">
       <h1>Nifty 50 Levels</h1>
       <div id="meta" class="meta">Loading…</div>
@@ -71,6 +110,29 @@
     </div>
 
     <script>
+      function updateRefreshCountdown() {
+        const now = Date.now();
+        const intervalMs = 15 * 60 * 1000;
+        const nextRefresh = new Date((Math.floor(now / intervalMs) + 1) * intervalMs);
+        const secondsRemaining = Math.ceil((nextRefresh.getTime() - now) / 1000);
+        const hours = Math.floor(secondsRemaining / 3600);
+        const minutes = Math.floor((secondsRemaining % 3600) / 60);
+        const seconds = secondsRemaining % 60;
+        const time = new Intl.DateTimeFormat('en-IN', {
+          timeZone: 'Asia/Kolkata',
+          hour: '2-digit',
+          minute: '2-digit',
+          hourCycle: 'h23',
+        }).format(nextRefresh);
+
+        document.getElementById('next-refresh-time').textContent = `${time} IST`;
+        document.getElementById('refresh-countdown').textContent =
+          `In ${String(hours).padStart(2, '0')}:${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+      }
+
+      updateRefreshCountdown();
+      setInterval(updateRefreshCountdown, 1000);
+
       async function loadData() {
         try {
           const res = await fetch('./data.json');
