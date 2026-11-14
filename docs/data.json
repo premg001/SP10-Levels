@@ -1,5 +1,5 @@
 {
-  "updated": "14-Nov-2026 13:03 IST",
+  "updated": "14-Nov-2026 20:59 IST",
   "rows": [
     {
       "sno": 1,
@@ -31,7 +31,7 @@
     {
       "sno": 4,
       "name": "ASIANPAINT",
-      "cmp": 2536.5,
+      "cmp": 2550.0,
       "weekly_buy": 2217.1,
       "weekly_sell": 2832.7,
       "daily_buy": 2233.5,
@@ -49,7 +49,7 @@
     {
       "sno": 6,
       "name": "BAJAJ-AUTO",
-      "cmp": 10945.0,
+      "cmp": 10850.0,
       "weekly_buy": 9637.0,
       "weekly_sell": 12470.0,
       "daily_buy": 10240.0,
@@ -103,7 +103,7 @@
     {
       "sno": 12,
       "name": "BRITANNIA",
-      "cmp": 4796.9,
+      "cmp": 4750.5,
       "weekly_buy": 4506.0,
       "weekly_sell": 4964.0,
       "daily_buy": 4712.5,
@@ -211,11 +211,11 @@
     {
       "sno": 24,
       "name": "HINDUNILVR",
-      "cmp": 1974.0,
+      "cmp": 1992.9,
       "weekly_buy": 1758.2,
       "weekly_sell": 2213.0,
       "daily_buy": 1814.4,
-      "daily_sell": 2051.9
+      "daily_sell": 2027.0
     },
     {
       "sno": 25,
@@ -301,11 +301,11 @@
     {
       "sno": 34,
       "name": "NESTLEIND",
-      "cmp": 1260.9,
+      "cmp": 1263.2,
       "weekly_buy": 1159.4,
       "weekly_sell": 1385.9,
       "daily_buy": 1163.2,
-      "daily_sell": 1385.9
+      "daily_sell": 1309.6
     },
     {
       "sno": 35,
@@ -391,11 +391,11 @@
     {
       "sno": 44,
       "name": "TATACONSUM",
-      "cmp": 1085.3,
+      "cmp": 1079.0,
       "weekly_buy": 945.0,
       "weekly_sell": 1123.4,
       "daily_buy": 1060.0,
-      "daily_sell": 1109.8
+      "daily_sell": 1099.9
     },
     {
       "sno": 45,
@@ -436,11 +436,11 @@
     {
       "sno": 49,
       "name": "TRENT",
-      "cmp": 3180.0,
+      "cmp": 3165.2,
       "weekly_buy": 2545.8,
       "weekly_sell": 3244.5,
       "daily_buy": 3005.6,
-      "daily_sell": 3244.5
+      "daily_sell": 3238.0
     },
     {
       "sno": 50,
