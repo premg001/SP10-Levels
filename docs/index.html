@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nifty Levels</title>
+    <style>
+      :root {
+        color-scheme: light dark;
+        font-family: Arial, sans-serif;
+      }
+      body {
+        margin: 0;
+        padding: 24px;
+        background: #0f172a;
+        color: #e2e8f0;
+      }
+      .container {
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+      h1 {
+        margin-bottom: 8px;
+      }
+      .meta {
+        color: #94a3b8;
+        margin-bottom: 20px;
+      }
+      table {
+        width: 100%;
+        border-collapse: collapse;
+        background: rgba(15, 23, 42, 0.7);
+      }
+      th, td {
+        padding: 10px 12px;
+        border: 1px solid #334155;
+        text-align: left;
+      }
+      th {
+        background: #1e293b;
+      }
+      tr:nth-child(even) {
+        background: rgba(148, 163, 184, 0.05);
+      }
+      .status {
+        font-weight: 700;
+      }
+      .muted {
+        color: #94a3b8;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Nifty 50 Levels</h1>
+      <div id="meta" class="meta">Loading…</div>
+      <table>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Weekly Buy</th>
+            <th>Weekly Sell</th>
+            <th>Daily Buy</th>
+            <th>Daily Sell</th>
+          </tr>
+        </thead>
+        <tbody id="rows"></tbody>
+      </table>
+    </div>
+
+    <script>
+      async function loadData() {
+        try {
+          const res = await fetch('./data.json');
+          if (!res.ok) throw new Error('Unable to load data.json');
+          const payload = await res.json();
+          const rows = payload.rows || [];
+          document.getElementById('meta').textContent = `Updated: ${payload.updated || 'n/a'}`;
+          const tbody = document.getElementById('rows');
+          tbody.innerHTML = rows.map((row) => `
+            <tr>
+              <td>${row.sno ?? ''}</td>
+              <td>${row.name ?? ''}</td>
+              <td>${row.cmp ?? '—'}</td>
+              <td>${row.weekly_buy ?? '—'}</td>
+              <td>${row.weekly_sell ?? '—'}</td>
+              <td>${row.daily_buy ?? '—'}</td>
+              <td>${row.daily_sell ?? '—'}</td>
+            </tr>
+          `).join('');
+        } catch (error) {
+          document.getElementById('meta').textContent = 'Unable to load level data.';
+          document.getElementById('rows').innerHTML = `<tr><td colspan="7">${error.message}</td></tr>`;
+        }
+      }
+      loadData();
+    </script>
+  </body>
+</html>
