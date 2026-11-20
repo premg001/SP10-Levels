@@ -1,10 +1,10 @@
 {
-  "updated": "20-Nov-2026 21:53 IST",
+  "updated": "21-Nov-2026 04:15 IST",
   "rows": [
     {
       "sno": 1,
       "name": "ADANIENT",
-      "cmp": 2709.0,
+      "cmp": 2703.1,
       "weekly_buy": 2430.7,
       "weekly_sell": 2785.8,
       "daily_buy": 2641.0,
@@ -13,7 +13,7 @@
     {
       "sno": 2,
       "name": "ADANIPORTS",
-      "cmp": 1917.0,
+      "cmp": 1917.1,
       "weekly_buy": 1674.2,
       "weekly_sell": null,
       "daily_buy": 1875.6,
@@ -22,16 +22,16 @@
     {
       "sno": 3,
       "name": "APOLLOHOSP",
-      "cmp": 9200.0,
+      "cmp": 8738.0,
       "weekly_buy": 7465.0,
       "weekly_sell": null,
       "daily_buy": 8454.5,
-      "daily_sell": null
+      "daily_sell": 9070.5
     },
     {
       "sno": 4,
       "name": "ASIANPAINT",
-      "cmp": 2608.3,
+      "cmp": 2595.0,
       "weekly_buy": 2217.1,
       "weekly_sell": 2832.7,
       "daily_buy": 2495.2,
@@ -40,16 +40,16 @@
     {
       "sno": 5,
       "name": "AXISBANK",
-      "cmp": 1446.0,
+      "cmp": 1380.8,
       "weekly_buy": 1210.6,
       "weekly_sell": null,
       "daily_buy": 1201.2,
-      "daily_sell": null
+      "daily_sell": 1384.5
     },
     {
       "sno": 6,
       "name": "BAJAJ-AUTO",
-      "cmp": 10765.0,
+      "cmp": 10817.0,
       "weekly_buy": 9637.0,
       "weekly_sell": 12470.0,
       "daily_buy": 10240.0,
@@ -58,7 +58,7 @@
     {
       "sno": 7,
       "name": "BAJFINANCE",
-      "cmp": 1122.0,
+      "cmp": 1092.85,
       "weekly_buy": 899.15,
       "weekly_sell": 1176.4,
       "daily_buy": 899.15,
@@ -67,52 +67,52 @@
     {
       "sno": 8,
       "name": "BAJAJFINSV",
-      "cmp": 1892.0,
+      "cmp": 1885.0,
       "weekly_buy": 1640.5,
       "weekly_sell": 2074.9,
-      "daily_buy": 1838.1,
+      "daily_buy": 1640.5,
       "daily_sell": 1906.0
     },
     {
       "sno": 9,
       "name": "BEL",
-      "cmp": 402.0,
+      "cmp": 404.2,
       "weekly_buy": 361.2,
       "weekly_sell": 416.0,
-      "daily_buy": 392.65,
+      "daily_buy": 361.2,
       "daily_sell": 406.7
     },
     {
       "sno": 10,
       "name": "BHARTIARTL",
-      "cmp": 2161.7,
+      "cmp": 2144.0,
       "weekly_buy": 1740.5,
       "weekly_sell": 2164.0,
-      "daily_buy": 2122.5,
+      "daily_buy": 2040.4,
       "daily_sell": 2164.0
     },
     {
       "sno": 11,
       "name": "BPCL",
-      "cmp": 314.1,
+      "cmp": 308.1,
       "weekly_buy": 280.25,
       "weekly_sell": 318.2,
-      "daily_buy": 300.1,
-      "daily_sell": 321.95
+      "daily_buy": 283.4,
+      "daily_sell": 309.25
     },
     {
       "sno": 12,
       "name": "BRITANNIA",
-      "cmp": 4900.0,
+      "cmp": 4868.0,
       "weekly_buy": 4506.0,
       "weekly_sell": 4964.0,
-      "daily_buy": 4673.2,
+      "daily_buy": 4506.0,
       "daily_sell": 5040.0
     },
     {
       "sno": 13,
       "name": "CIPLA",
-      "cmp": 1415.0,
+      "cmp": 1418.5,
       "weekly_buy": 1292.0,
       "weekly_sell": 1421.0,
       "daily_buy": 1382.0,
@@ -121,16 +121,16 @@
     {
       "sno": 14,
       "name": "COALINDIA",
-      "cmp": 390.0,
+      "cmp": 391.5,
       "weekly_buy": 380.4,
       "weekly_sell": 432.9,
-      "daily_buy": 386.55,
+      "daily_buy": 380.4,
       "daily_sell": 408.2
     },
     {
       "sno": 15,
       "name": "DRREDDY",
-      "cmp": 1390.2,
+      "cmp": 1400.9,
       "weekly_buy": 1167.2,
       "weekly_sell": 1405.9,
       "daily_buy": 1368.7,
@@ -139,16 +139,16 @@
     {
       "sno": 16,
       "name": "EICHERMOT",
-      "cmp": 8113.0,
+      "cmp": 8058.5,
       "weekly_buy": 6767.5,
       "weekly_sell": 8165.0,
       "daily_buy": 7451.5,
-      "daily_sell": 8140.0
+      "daily_sell": 8110.0
     },
     {
       "sno": 17,
       "name": "ETERNAL",
-      "cmp": 364.0,
+      "cmp": 366.85,
       "weekly_buy": 301.75,
       "weekly_sell": 368.45,
       "daily_buy": 340.0,
@@ -157,7 +157,7 @@
     {
       "sno": 18,
       "name": "GRASIM",
-      "cmp": 3103.7,
+      "cmp": 3111.1,
       "weekly_buy": 2828.2,
       "weekly_sell": 3250.0,
       "daily_buy": 3009.0,
@@ -166,7 +166,7 @@
     {
       "sno": 19,
       "name": "HCLTECH",
-      "cmp": 1344.4,
+      "cmp": 1332.9,
       "weekly_buy": 1195.7,
       "weekly_sell": 1469.0,
       "daily_buy": 1172.8,
@@ -175,16 +175,16 @@
     {
       "sno": 20,
       "name": "HDFCBANK",
-      "cmp": 846.0,
+      "cmp": 821.8,
       "weekly_buy": 690.12,
       "weekly_sell": 994.0,
       "daily_buy": 798.0,
-      "daily_sell": 848.9
+      "daily_sell": 823.7
     },
     {
       "sno": 21,
       "name": "HDFCLIFE",
-      "cmp": 588.65,
+      "cmp": 577.05,
       "weekly_buy": 513.4,
       "weekly_sell": 605.0,
       "daily_buy": 513.4,
@@ -193,16 +193,16 @@
     {
       "sno": 22,
       "name": "HEROMOTOCO",
-      "cmp": 5536.0,
+      "cmp": 5556.0,
       "weekly_buy": 4825.0,
       "weekly_sell": 5890.0,
-      "daily_buy": 5233.5,
+      "daily_buy": 5051.5,
       "daily_sell": 5659.0
     },
     {
       "sno": 23,
       "name": "HINDALCO",
-      "cmp": 929.5,
+      "cmp": 910.0,
       "weekly_buy": 866.35,
       "weekly_sell": 971.65,
       "daily_buy": 891.45,
@@ -211,25 +211,25 @@
     {
       "sno": 24,
       "name": "HINDUNILVR",
-      "cmp": 2052.5,
+      "cmp": 2074.2,
       "weekly_buy": 1758.2,
       "weekly_sell": 2213.0,
-      "daily_buy": 1978.0,
+      "daily_buy": 1961.0,
       "daily_sell": 2092.0
     },
     {
       "sno": 25,
       "name": "ICICIBANK",
-      "cmp": 1640.0,
+      "cmp": 1608.9,
       "weekly_buy": 1291.0,
       "weekly_sell": null,
       "daily_buy": 1375.1,
-      "daily_sell": null
+      "daily_sell": 1613.9
     },
     {
       "sno": 26,
       "name": "ITC",
-      "cmp": 299.1,
+      "cmp": 301.0,
       "weekly_buy": 255.5,
       "weekly_sell": 317.9,
       "daily_buy": 254.65,
@@ -238,16 +238,16 @@
     {
       "sno": 27,
       "name": "INDUSINDBK",
-      "cmp": 1003.0,
+      "cmp": 923.65,
       "weekly_buy": 827.5,
       "weekly_sell": 1077.85,
       "daily_buy": 905.2,
-      "daily_sell": 1016.6
+      "daily_sell": 931.9
     },
     {
       "sno": 28,
       "name": "INFY",
-      "cmp": 1098.0,
+      "cmp": 1091.9,
       "weekly_buy": 982.4,
       "weekly_sell": 1195.0,
       "daily_buy": 1038.05,
@@ -256,7 +256,7 @@
     {
       "sno": 29,
       "name": "JSWSTEEL",
-      "cmp": 1337.0,
+      "cmp": 1336.8,
       "weekly_buy": 1158.0,
       "weekly_sell": 1370.0,
       "daily_buy": 1181.9,
@@ -265,7 +265,7 @@
     {
       "sno": 30,
       "name": "KOTAKBANK",
-      "cmp": 515.8,
+      "cmp": 503.0,
       "weekly_buy": 394.7,
       "weekly_sell": null,
       "daily_buy": 455.4,
@@ -274,7 +274,7 @@
     {
       "sno": 31,
       "name": "LT",
-      "cmp": 4209.1,
+      "cmp": 4211.0,
       "weekly_buy": 3592.9,
       "weekly_sell": 4272.3,
       "daily_buy": 4115.0,
@@ -283,34 +283,34 @@
     {
       "sno": 32,
       "name": "M&M",
-      "cmp": 3545.0,
+      "cmp": 3509.0,
       "weekly_buy": 2744.3,
       "weekly_sell": 3787.0,
       "daily_buy": 3313.0,
-      "daily_sell": 3546.5
+      "daily_sell": 3534.6
     },
     {
       "sno": 33,
       "name": "MARUTI",
-      "cmp": 14011.0,
+      "cmp": 13589.0,
       "weekly_buy": 11059.45,
       "weekly_sell": 14440.0,
       "daily_buy": 12535.0,
-      "daily_sell": 14175.0
+      "daily_sell": 13750.0
     },
     {
       "sno": 34,
       "name": "NESTLEIND",
-      "cmp": 1325.0,
+      "cmp": 1303.4,
       "weekly_buy": 1159.4,
       "weekly_sell": 1385.9,
       "daily_buy": 1254.4,
-      "daily_sell": 1385.9
+      "daily_sell": 1309.6
     },
     {
       "sno": 35,
       "name": "NTPC",
-      "cmp": 321.5,
+      "cmp": 325.0,
       "weekly_buy": 296.85,
       "weekly_sell": 344.45,
       "daily_buy": 316.85,
@@ -319,7 +319,7 @@
     {
       "sno": 36,
       "name": "ONGC",
-      "cmp": 223.46,
+      "cmp": 224.52,
       "weekly_buy": 218.53,
       "weekly_sell": 243.16,
       "daily_buy": 223.05,
@@ -328,16 +328,16 @@
     {
       "sno": 37,
       "name": "POWERGRID",
-      "cmp": 269.0,
+      "cmp": 264.5,
       "weekly_buy": 247.3,
       "weekly_sell": 270.2,
       "daily_buy": 255.1,
-      "daily_sell": 270.2
+      "daily_sell": 266.25
     },
     {
       "sno": 38,
       "name": "RELIANCE",
-      "cmp": 1377.5,
+      "cmp": 1375.6,
       "weekly_buy": 1156.0,
       "weekly_sell": 1473.4,
       "daily_buy": 1324.0,
@@ -346,7 +346,7 @@
     {
       "sno": 39,
       "name": "SBILIFE",
-      "cmp": 1826.5,
+      "cmp": 1804.6,
       "weekly_buy": 1607.7,
       "weekly_sell": 1906.9,
       "daily_buy": 1607.7,
@@ -355,7 +355,7 @@
     {
       "sno": 40,
       "name": "SHRIRAMFIN",
-      "cmp": 972.0,
+      "cmp": 973.3,
       "weekly_buy": 817.8,
       "weekly_sell": 1153.7,
       "daily_buy": 818.95,
@@ -364,7 +364,7 @@
     {
       "sno": 41,
       "name": "SBIN",
-      "cmp": 1165.1,
+      "cmp": 1156.0,
       "weekly_buy": 944.45,
       "weekly_sell": 1234.7,
       "daily_buy": 943.4,
@@ -373,7 +373,7 @@
     {
       "sno": 42,
       "name": "SUNPHARMA",
-      "cmp": 1884.9,
+      "cmp": 1900.0,
       "weekly_buy": 1719.1,
       "weekly_sell": 1984.8,
       "daily_buy": 1856.8,
@@ -382,7 +382,7 @@
     {
       "sno": 43,
       "name": "TCS",
-      "cmp": 2376.2,
+      "cmp": 2342.7,
       "weekly_buy": 2032.4,
       "weekly_sell": 2614.0,
       "daily_buy": 2060.0,
@@ -391,7 +391,7 @@
     {
       "sno": 44,
       "name": "TATACONSUM",
-      "cmp": 1155.9,
+      "cmp": 1144.0,
       "weekly_buy": 945.0,
       "weekly_sell": 1234.3,
       "daily_buy": 1075.5,
@@ -400,7 +400,7 @@
     {
       "sno": 45,
       "name": "TMPV",
-      "cmp": 266.35,
+      "cmp": 263.5,
       "weekly_buy": 259.1,
       "weekly_sell": 320.15,
       "daily_buy": null,
@@ -409,7 +409,7 @@
     {
       "sno": 46,
       "name": "TATASTEEL",
-      "cmp": 178.0,
+      "cmp": 180.89,
       "weekly_buy": 166.13,
       "weekly_sell": 191.8,
       "daily_buy": 167.56,
@@ -418,7 +418,7 @@
     {
       "sno": 47,
       "name": "TECHM",
-      "cmp": 1746.2,
+      "cmp": 1723.0,
       "weekly_buy": 1498.0,
       "weekly_sell": 1838.0,
       "daily_buy": 1442.5,
@@ -427,7 +427,7 @@
     {
       "sno": 48,
       "name": "TITAN",
-      "cmp": 4620.0,
+      "cmp": 4700.0,
       "weekly_buy": 4209.0,
       "weekly_sell": 5186.7,
       "daily_buy": 4225.0,
@@ -436,16 +436,16 @@
     {
       "sno": 49,
       "name": "TRENT",
-      "cmp": 3256.1,
+      "cmp": 3225.0,
       "weekly_buy": 2545.8,
       "weekly_sell": 3399.7,
-      "daily_buy": 3146.5,
-      "daily_sell": 3262.0
+      "daily_buy": 3005.6,
+      "daily_sell": 3238.0
     },
     {
       "sno": 50,
       "name": "ULTRACEMCO",
-      "cmp": 12939.0,
+      "cmp": 12560.0,
       "weekly_buy": 10426.0,
       "weekly_sell": 13097.0,
       "daily_buy": 12062.0,
@@ -454,7 +454,7 @@
     {
       "sno": 51,
       "name": "WIPRO",
-      "cmp": 185.7,
+      "cmp": 183.93,
       "weekly_buy": 156.79,
       "weekly_sell": 211.0,
       "daily_buy": 182.25,
