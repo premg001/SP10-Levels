@@ -1,5 +1,5 @@
 {
-  "updated": "21-Nov-2026 09:02 IST",
+  "updated": "21-Nov-2026 17:18 IST",
   "rows": [
     {
       "sno": 1,
@@ -31,7 +31,7 @@
     {
       "sno": 4,
       "name": "ASIANPAINT",
-      "cmp": 2595.0,
+      "cmp": 2608.3,
       "weekly_buy": 2217.1,
       "weekly_sell": 2832.7,
       "daily_buy": 2495.2,
@@ -85,10 +85,10 @@
     {
       "sno": 10,
       "name": "BHARTIARTL",
-      "cmp": 2144.0,
+      "cmp": 2161.7,
       "weekly_buy": 1740.5,
       "weekly_sell": 2164.0,
-      "daily_buy": 2040.4,
+      "daily_buy": 2122.5,
       "daily_sell": 2164.0
     },
     {
@@ -112,7 +112,7 @@
     {
       "sno": 13,
       "name": "CIPLA",
-      "cmp": 1418.5,
+      "cmp": 1415.0,
       "weekly_buy": 1292.0,
       "weekly_sell": 1421.0,
       "daily_buy": 1382.0,
@@ -157,7 +157,7 @@
     {
       "sno": 18,
       "name": "GRASIM",
-      "cmp": 3111.1,
+      "cmp": 3103.7,
       "weekly_buy": 2828.2,
       "weekly_sell": 3250.0,
       "daily_buy": 3009.0,
@@ -211,10 +211,10 @@
     {
       "sno": 24,
       "name": "HINDUNILVR",
-      "cmp": 2074.2,
+      "cmp": 2052.5,
       "weekly_buy": 1758.2,
       "weekly_sell": 2213.0,
-      "daily_buy": 1961.0,
+      "daily_buy": 1978.0,
       "daily_sell": 2092.0
     },
     {
@@ -310,7 +310,7 @@
     {
       "sno": 35,
       "name": "NTPC",
-      "cmp": 325.0,
+      "cmp": 321.5,
       "weekly_buy": 296.85,
       "weekly_sell": 344.45,
       "daily_buy": 316.85,
@@ -445,7 +445,7 @@
     {
       "sno": 50,
       "name": "ULTRACEMCO",
-      "cmp": 12560.0,
+      "cmp": 12939.0,
       "weekly_buy": 10426.0,
       "weekly_sell": 13097.0,
       "daily_buy": 12062.0,
